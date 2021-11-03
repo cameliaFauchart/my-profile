@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.list-inline li {
+    display: inline;
+    }
+
+img {width: 100px;
+      border-radius: 50px;}
+      
+div {
+    background-color: #DED9C4;
+    border: 1px solid;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 4px;
+    text-align: center;
+    align-self: center;
+    margin:0 auto;
+    width: 600px;
+}
+
+.btn_profile {
+    background-color: #96C7C1;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.card-head {
+  font-family: Raleway;
+}
+
+.card-subhead {
+  font-family: Cabin;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #buttons {
+    display: flex;}
+  
+  #buttons li {
+    list-style: none;
+    text-align: center;
+    background-color: #96C7C1;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  #buttons li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+  }
+  
+  #buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+  }
+
+  .word-cloud-class {
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+}
+
+.word_cloud-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid ;
+    display: flex;
+}  
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
